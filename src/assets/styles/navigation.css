@@ -1,0 +1,25 @@
+/* Style for Nav */
+.nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+/* Style for each link */
+.nav-link {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 40px;
+  margin-right: 20px; /* Add margin between links */
+}
+
+/* Remove margin on the last link */
+.nav-link:last-child {
+  margin-right: 0;
+}
+
+.nav-link:hover {
+  background-color: #555;
+  border-radius: 5px;
+}
