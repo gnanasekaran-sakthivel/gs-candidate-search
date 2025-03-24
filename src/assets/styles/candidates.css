@@ -1,0 +1,68 @@
+/* CandidateSearchComponent.css */
+
+/* Container for the entire component */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+}
+
+/* Title style */
+.title {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #f3f4e8;
+}
+
+/* Card style to hold the candidate details */
+.card {
+  background-color: #424a05;
+  padding: 20px;
+  width: 800x;
+  border-radius: 10px;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Style for the avatar image */
+.image {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+/* Style for the candidate name and ID */
+.name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.details {
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+/* Add spacing between each line in the details */
+.details div {
+  margin-bottom: 10px; /* Adjust the value as needed */
+}
+
+/* Container for the buttons (minus and plus images) */
+.buttons-container {
+  display: flex;
+  justify-content: space-between; /* This makes the buttons align on opposite ends */
+  align-items: center;
+  width: 100%; /* Ensures the container takes up the full width */
+  margin-top: 20px;
+}
+
+/* Style for buttons (minus and plus) */
+.button {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
