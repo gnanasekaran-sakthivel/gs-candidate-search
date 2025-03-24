@@ -16,9 +16,9 @@ Each row contains a candidates. On the end of the row, we have a Delete button. 
 
 Following are some screenshots of the application.
 
-![Home Page](/images/screen1.jpg)
+![Home Page](/assets/screen1.jpg)
 
-![Potential Candidates Page](/images/screen2.jpg)
+![Potential Candidates Page](/assets/screen2.jpg)
 
 ## Technlogies used
 
